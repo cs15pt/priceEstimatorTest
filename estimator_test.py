@@ -94,7 +94,7 @@ def regressor_test(features, price):
 
 	err.sort()
 
-	print "actual values 	", req
+	print "actual values 	", req_p
 	print "predicted values 	", pred
 	print "individual errors  	", err
 	print "average error rate 	 ", sum(err) / len(err)
